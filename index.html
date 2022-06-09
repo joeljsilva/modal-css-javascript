@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/9af12d9834.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Modal</title>
+</head>
+
+<body>
+  <header class="header-bg">
+    <div class="header">
+      <div class="logo">
+        Logo
+      </div>
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#" data-modal="abrir">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <h1>Titulo Príncipal</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, cum aspernatur sint, ut vitae totam soluta unde voluptatem nostrum repellendus distinctio ex! Eveniet architecto, sapiente ullam officia at quam nobis.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni nemo, modi error quia repellat asperiores, veritatis unde dignissimos blanditiis rerum animi ipsam, harum illum facere eligendi ad ratione sapiente vel!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, cum aspernatur sint, ut vitae totam soluta unde voluptatem nostrum repellendus distinctio ex! Eveniet architecto, sapiente ullam officia at quam nobis.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni nemo, modi error quia repellat asperiores, veritatis unde dignissimos blanditiis rerum animi ipsam, harum illum facere eligendi ad ratione sapiente vel!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, cum aspernatur sint, ut vitae totam soluta unde voluptatem nostrum repellendus distinctio ex! Eveniet architecto, sapiente ullam officia at quam nobis.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni nemo, modi error quia repellat asperiores, veritatis unde dignissimos blanditiis rerum animi ipsam, harum illum facere eligendi ad ratione sapiente vel!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, cum aspernatur sint, ut vitae totam soluta unde voluptatem nostrum repellendus distinctio ex! Eveniet architecto, sapiente ullam officia at quam nobis.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni nemo, modi error quia repellat asperiores, veritatis unde dignissimos blanditiis rerum animi ipsam, harum illum facere eligendi ad ratione sapiente vel!</p>
+  </main>
+
+  <footer class="footer">
+    <p>Todos os direitos reservados.</p>
+  </footer>
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <div class="modal-seguranca">
+        <a href="#"><i class="fa-solid fa-lock"></i> Ajude a proteger sua conta</a>
+        <div class="fechar" data-modal="fechar"><i class="fa-solid fa-x"></i></div>
+      </div>
+      <form class="modal-form">
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" for="email" autocomplete="off" placeholder="Digite o seu email" class="input-form">
+        </div>
+        <div>
+          <label for="password">Senha:</label>
+          <input type="password" name="password" id="password" for="password" placeholder="Digite a sua senha" class="input-form">
+        </div>
+        <input type="submit" value="Acessar">
+        <a class="forgot" href="#">Esqueceu sua senha?</a>
+      </form>
+    </div>
+  </section>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
