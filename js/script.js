@@ -4,7 +4,6 @@ function initModal(){
     const modalContainer = document.querySelector('[data-modal="container"]');
 
     function showModal(event) {
-      event.preventDefault();
       modalContainer.classList.toggle('ativo');
     };
 
