@@ -1,9 +1,9 @@
 function initModal(){
-    const abrirModal = document.querySelector('[data-modal="abrir"');
+    const abrirModal = document.querySelector('[data-modal="abrir"]');
     const fecharModal = document.querySelector('[data-modal="fechar"]');
     const modalContainer = document.querySelector('[data-modal="container"]');
 
-    function showModal(event) {
+    function showModal() {
       modalContainer.classList.toggle('ativo');
     };
 
